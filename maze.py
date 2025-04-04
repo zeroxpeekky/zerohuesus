@@ -1,18 +1,18 @@
 from pygame import *
 font.init()
 
-#создай окно игры
+
 window = display.set_mode((700,500))
 display.set_caption('maze')
 zadniyfon = transform.scale(image.load("background.jpg"),(700,500))
-#задай фон сцены
+
 clock = time.Clock()
-#создай 2 спрайта и размести их на сцене
+
 x1 = 50
 y1 = 10
 x2 = 100
 y2 = 100
-#обработай событие «клик по кнопке "Закрыть окно"»
+
 mixer.init()
 mixer.music.load('jungles.ogg')
 mixer.music.play()
